@@ -432,7 +432,7 @@ section {
 /*--------------------------------------------------------------
 # Akills
 --------------------------------------------------------------*/
-.skills .progress {
+/*.skills .progress {
   height: 60px;
   display: block;
   background: none;
@@ -464,7 +464,48 @@ section {
   height: 10px;
   transition: 0.9s;
   background-color: #149ddd;
+}*/
+
+/*Added by Me*/
+.skills {
+  font-family: "Poppins", sans-serif;
 }
+
+.section-title h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #050d18;
+  margin-bottom: 20px;
+}
+
+.skill-item h4 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #050d18;
+  margin-bottom: 10px;
+}
+
+.skill-dot-level {
+  float: right; /* Position the dots to the right */
+  font-size: 16px; /* Match the size of the skill title */
+}
+
+/* Blue filled dot */
+.skill-dot-level::after {
+  content: '●●●●○'; /* 4 filled dots and 1 empty dot by default */
+  color: rgba(10, 153, 236, 0.678); /* Blue color for filled dots */
+  letter-spacing: 3px; /* Adjust spacing between dots */
+}
+
+/* Replace content accordingly for different skill levels */
+.skill-item:nth-child(1) .skill-dot-level::after { content: '●●●●○'; } /* Very Good */
+.skill-item:nth-child(2) .skill-dot-level::after { content: '●●●○○'; } /* Good */
+.skill-item:nth-child(3) .skill-dot-level::after { content: '●●○○○'; } /* Basic */
+.skill-item:nth-child(4) .skill-dot-level::after { content: '●●●●○'; } /* Very Good */
+.skill-item:nth-child(5) .skill-dot-level::after { content: '●●●○○'; } /* Good */
+
+/* Define more nth-child styles as needed for additional skills */
+
 
 /*--------------------------------------------------------------
 # Resume
