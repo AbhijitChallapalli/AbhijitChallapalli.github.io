@@ -471,6 +471,10 @@ section {
   font-family: "Poppins", sans-serif;
 }
 
+/* .row {
+  background-color: red;
+} */
+
 .section-title h2 {
   font-size: 24px;
   font-weight: 700;
@@ -487,7 +491,7 @@ section {
 
 .skill-dot-level {
   float: right; /* Position the dots to the right */
-  font-size: 16px; /* Match the size of the skill title */
+  font-size: 20px; /* Match the size of the skill title */
 }
 
 /* Blue filled dot */
