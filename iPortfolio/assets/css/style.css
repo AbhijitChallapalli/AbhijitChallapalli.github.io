@@ -588,6 +588,13 @@ section {
   position: relative;
   overflow: hidden;
   z-index: 1;
+  height: 200px; /* adjust as needed */
+}
+
+.portfolio .portfolio-wrap img {
+  width: 100%; /* ensure it takes the full width of the parent */
+  height: 100%; /* ensure it takes the full height of the parent */
+  object-fit: cover; /* cover the container, might crop some parts */
 }
 
 .portfolio .portfolio-wrap::before {
