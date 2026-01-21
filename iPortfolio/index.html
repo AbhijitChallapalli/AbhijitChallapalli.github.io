@@ -16,24 +16,13 @@
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <!-- CSS Dependencies -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <!-- <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">profile -->
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/site.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: iPortfolio
-  * Updated: Jan 29 2024 with Bootstrap v5.3.2
-  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body>
@@ -49,23 +38,25 @@
         <img src="assets/img/AC Logo.jpg" alt="" class="img-fluid rounded-circle">
         <h1 class="text-light"><a href="index.html">Abhijit Challapalli</a></h1>
         <div class="social-links mt-3 text-center">
-          <!--<a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>-->
-          <!--<a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>-->
-          <!--<a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>-->
-          <!--<a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>-->
-          <a href="https://github.com/AbhijitChallapalli " target="_blank" class="github"><i class="bx bxl-github"></i></a>
-          <a href="https://www.linkedin.com/in/abhijit-challapalli-b5876814b/" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          <!--<a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>-->
+          <!--<a href="#" class="facebook"><i class="bi bi-facebook"></i></a>-->
+          <!--<a href="#" class="instagram"><i class="bi bi-instagram"></i></a>-->
+          <!--<a href="#" class="google-plus"><i class="bi bi-skype"></i></a>-->
+          <a href="https://github.com/AbhijitChallapalli" target="_blank" class="github"><i class="bi bi-github"></i></a>
+          <a href="https://www.linkedin.com/in/abhijit-challapalli-b5876814b/" target="_blank" class="linkedin"><i class="bi bi-linkedin"></i></a>
         </div>
       </div>
 
       <nav id="navbar" class="nav-menu navbar">
         <ul>
-          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
-          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
-          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
-          <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Projects</span></a></li>
-          <!--<li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li>-->
-          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+          <a href="#hero" class="nav-link scrollto active"><i class="bi bi-house"></i> <span>Home</span></a>
+          <a href="#about" class="nav-link scrollto"><i class="bi bi-person"></i> <span>About</span></a>
+          <a href="#resume" class="nav-link scrollto"><i class="bi bi-file-earmark-text"></i> <span>Resume</span></a>
+          <a href="#portfolio" class="nav-link scrollto"><i class="bi bi-grid"></i> <span>Projects</span></a>
+          <a href="#blogs" class="nav-link scrollto"><i class="bi bi-journal-text"></i><span>Blogs</span></a>
+          <a href="https://github.com/AbhijitChallapalli" target="_blank" class="nav-link scrollto"><i class="bi bi-diagram-3"></i><span>ResearchTree</span></a>
+          <!--<li><a href="#services" class="nav-link scrollto"><i class="bi bi-gear"></i> <span>Services</span></a></li>-->
+          <a href="#contact" class="nav-link scrollto"><i class="bi bi-envelope"></i> <span>Contact</span></a>
         </ul>
       </nav><!-- .nav-menu -->
     </div>
@@ -73,9 +64,9 @@
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
-    <div class="hero-container" data-aos="fade-in">
+    <div class="hero-container">
       <h1>Abhijit Challapalli</h1>
-      <p>I'm <span class="typed" data-typed-items="Developer, Data Engineer, An Aspiring Data Scientist"></span></p>
+      <p>I'm <span class="typewriter" data-items="PhD Student, Developer, Data Scientist, ML Engineer"></span></p>
     </div>
   </section><!-- End Hero -->
 
@@ -87,15 +78,17 @@
 
         <div class="section-title">
           <h2>About</h2>
-          <p>I'm a passionate Data Scientist, who builds machine learning and deep learning algorithms from scratch. Loves to share knowledge.</p>
+          <!-- <p>I'm a passionate Data Scientist, who builds machine learning and deep learning algorithms from scratch. Loves to share knowledge.</p> -->
+           <p>I'm a PhD student at The University of Texas at Arlington. I actively research and learn about Probabilistic and Diffusion Models. I also love to study and teach mathematics, especially its concepts in the fields of machine learning and deep learning..</p>
         </div>
         <div class="row">
-          <div class="col-lg-4" data-aos="fade-right">
-            <img src="assets/img/Abhi_Scaled.jpg" class="img-fluid" alt="">
+          <div class="col-lg-4">
+            <img src="assets/img/Abhi_mavapps1.jpg" class="img-fluid" alt="">
           </div>
-          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-            <h3>Data Engineer &amp; Aspiring Data Scientist.</h3>
-            <p style="text-align: justify;"> Driven and meticulous data science master's student with a perfect 4.0 GPA, experienced in leading critical data migration projects and developing machine learning models for academic paper classification. Skilled in Python, data visualization, and utilizing AWS services for large-scale data processing. Proven track record in automating and enhancing data engineering pipelines with a strong foundation in ETL, SQL, and cloud platforms.</p>
+          <div class="col-lg-8 pt-4 pt-lg-0 content">
+            <!-- <h3>Data Engineer &amp; Aspiring Data Scientist.</h3> -->
+             <h3>Gen AI/ML Engineer</h3>
+            <p style="text-align: justify;">Driven and meticulous PhD student with a perfect 4.0 GPA, experienced in leading critical data migration projects and building production-ready data/ML pipelines. Hands-on in synthetic data generation using GANs, VAEs, and diffusion models, and in training transformer models/LLMs from scratch (tokenization, training loops, evaluation). Skilled in Python and SQL, with strong experience across AWS and modern MLOps tooling (Docker, GitHub Actions). AWS Certified Data Engineer – Associate.</p>
             <div class="row">
               <div class="col-lg-6">
                 <ul>
@@ -107,8 +100,8 @@
               </div>
               <div class="col-lg-6">
                 <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>25</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Masters</span></li>
+                  <!-- <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>25</span></li> -->
+                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>PhD (Expected: May 2029)</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>abhijitchallapalli99@gmail.com</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
                 </ul>
@@ -134,34 +127,34 @@
 
         <div class="row no-gutters">
 
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
             <div class="count-box">
               <i class="bi bi-journal-richtext"></i>
-              <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
-              <p><strong>Projects</strong> Until Feb 2026</p>
+              <span class="counter">15</span>
+              <p><strong>Projects</strong> Until Jan 2026</p>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
             <div class="count-box">
               <i class="bi bi-award"></i>
-              <span data-purecounter-start="0" data-purecounter-end="7" data-purecounter-duration="1" class="purecounter"></span>
+              <span class="counter">7</span>
               <p><strong>Certificates</strong> From all learning platforms</p>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="300">
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
             <div class="count-box">
               <i class="bi bi-trophy"></i>
-              <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1" class="purecounter"></span>
+              <span class="counter">5</span>
               <p><strong>Awards/Scholarships</strong> Until March 2026</p>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="300">
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
             <div class="count-box">
               <i class="bi bi-trophy"></i>
-              <span data-purecounter-start="0" data-purecounter-end="18" data-purecounter-duration="1" class="purecounter"></span>
+              <span class="counter">18</span>
               <p><strong>Seminars/Conferences </strong> Attended/Given</p>
             </div>
           </div>
@@ -185,62 +178,62 @@
             <!-- Skill Row for Python -->
             <div class="skill-row">
               <span class="skill-text">Python <span class="skill-details">| 6 Years, 13 Projects</span></span>
-              <span class="skill-dots">● ● ● ● ○</span>
+              <!-- <span class="skill-dots">● ● ● ● ○</span> -->
             </div>
             <!-- Skill Row for MySQL -->
             <div class="skill-row">
               <span class="skill-text">MySQL <span class="skill-details">| 5 Years, 7 Projects</span></span>
-              <span class="skill-dots">● ● ● ● ○</span>
+              <!-- <span class="skill-dots">● ● ● ● ○</span> -->
             </div>
             <!-- Skill Row for AWS -->
             <div class="skill-row">
-              <span class="skill-text">AWS <span class="skill-details">| 2 Years, 3 Projects</span></span>
-              <span class="skill-dots">● ● ○ ○ ○</span>
-            </div>
-            <p style="font-size: 12px;">(S3, EC2, Athena, Redshift, Glue, IAM, DynamoDB, Lambda, Kinesis, SageMaker)</p>
+              <span class="skill-text">
+                AWS <span class="skill-details">| 2 Years, 3 Projects</span>
+              </span>
 
+              <small class="skill-subtext">
+                (S3, EC2, Athena, Redshift, Glue, IAM, DynamoDB, Lambda, Kinesis, SageMaker)
+              </small>
+            </div>
             <!-- Skill Row for Azure -->
             <div class="skill-row">
               <span class="skill-text">Azure <span class="skill-details">| 2 Years, 2 Projects</span></span>
-              <span class="skill-dots">● ● ○ ○ ○</span>
+              <small class="skill-subtext">
+                    (Databricks, Data Lake, SQL, VS Code, GitHub)
+              </small>
             </div>
-            <p style="font-size: 12px;">(Databricks, Data Lake, SQL, VS Code, GitHub)</p>
             <!-- Skill Row for PowerBI -->
             <div class="skill-row">
               <span class="skill-text">PowerBI <span class="skill-details">| 2 Years, 2 Projects</span></span>
-              <span class="skill-dots">● ● ● ○ ○</span>
             </div>
           </div>
-
-    
           <!-- Right Column -->
           <div class="col-half">
             <!-- Skill Row for Machine Learning -->
             <div class="skill-row">
               <span class="skill-text">Machine Learning <span class="skill-details">| 2 Year, 9 Projects</span></span>
-              <span class="skill-dots">● ● ● ● ○</span>
             </div>
             <!-- Skill Row for Neural Networks -->
             <div class="skill-row">
               <span class="skill-text">Neural Networks <span class="skill-details">| 2 Year, 4 Project</span></span>
-              <span class="skill-dots">● ● ● ○ ○</span>
             </div>
             <!-- Skill Row for Apache -->
             <div class="skill-row">
               <span class="skill-text">Apache <span class="skill-details">| 2 Year, 3 Projects</span></span>
-              <span class="skill-dots">● ● ○ ○ ○</span>
+              <small class="skill-subtext">
+                (Spark, Airflow, Kafka)
+              </small>
             </div>
-            <p style="font-size: 12px;">(Spark, Airflow, Kafka)</p>
             <!-- Skill Row for ETL -->
             <div class="skill-row">
               <span class="skill-text">ETL <span class="skill-details">| 2 Year, 4 Project</span></span>
-              <span class="skill-dots">● ● ● ● ○</span>
+              <small class="skill-subtext">
+                (Ab Initio, Talend, Informatica)
+              </small>
             </div>
-            <p style="font-size: 12px;">(Ab Initio, Talend, Informatica)</p>
             <!-- Skill Row for Tableau -->
             <div class="skill-row">
               <span class="skill-text">Tableau <span class="skill-details">| 2 Year, 4 Project</span></span>
-              <span class="skill-dots">● ● ● ● ○</span>
             </div>
           </div>
         </div>
@@ -256,8 +249,8 @@
           <p><a href="assets/pdf/AbhijitChallapalli_Resume.pdf" target="_blank">Download my full resume (PDF).</a></p>
         </div>
 
-        <div class="row">
-          <div class="col-lg-6" data-aos="fade-up">
+        <!-- <div class="row">
+          <div class="col-lg-6">
             <h3 class="resume-title">Summary</h3>
             <div class="resume-item pb-0">
               <h4>Abhijit Challapalli</h4>
@@ -283,7 +276,7 @@
               <p></p>
             </div>
           </div>
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-6">
             <h3 class="resume-title">Professional Experience</h3>
             <div class="resume-item">
               <h4>Graduate Research Assitant</h4>
@@ -314,7 +307,7 @@
           </div>
         </div>
 
-      </div>
+      </div> -->
     </section><!-- End Resume Section -->
 
     <!-- ======= Portfolio Section ======= -->
@@ -326,7 +319,7 @@
           <p>List of all the projects until now!!!</p>
         </div>
 
-        <div class="row" data-aos="fade-up">
+        <div class="row">
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">All</li>
@@ -337,24 +330,24 @@
           </div>
         </div>
 
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row portfolio-container">
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-ds">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/tensorflow_mlp.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/tensorflow_mlp.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="TensorFlow_MLP"><i class="bx bx-plus"></i></a>
-                <a href="https://github.com/AbhijitChallapalli/TensorFlow_MLP" target="_blank" title="TensorFlow_MLP"><i class="bx bxl-github"></i></a>
+                <a href="assets/img/portfolio/tensorflow_mlp.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="TensorFlow_MLP"><i class="bi bi-plus-lg"></i></a>
+                <a href="https://github.com/AbhijitChallapalli/TensorFlow_MLP" target="_blank" title="TensorFlow_MLP"><i class="bi bi-github"></i></a>
               </div>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-on">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Facial.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/face-recognition.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/Facial.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Facial Recognition"><i class="bx bx-plus"></i></a>
-                <a href="https://github.com/AbhijitChallapalli/Capstone_Project" target="_blank" title="Facial Recognition"><i class="bx bxl-github"></i></a>
+                <a href="assets/img/portfolio/Facial.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Facial Recognition"><i class="bi bi-plus-lg"></i></a>
+                <a href="https://github.com/AbhijitChallapalli/Capstone_Project" target="_blank" title="Facial Recognition"><i class="bi bi-github"></i></a>
               </div>
             </div>
           </div>
@@ -363,8 +356,8 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/end-end.jpeg" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/end-end.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="End-to-End Data Engineering"><i class="bx bx-plus"></i></a>
-                <a href="https://github.com/AbhijitChallapalli/data_engineering" target="_blank"  title="End-to-End Data Engineering"><i class="bx bxl-github"></i></a>
+                <a href="assets/img/portfolio/end-end.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="End-to-End Data Engineering"><i class="bi bi-plus-lg"></i></a>
+                <a href="https://github.com/AbhijitChallapalli/data_engineering" target="_blank"  title="End-to-End Data Engineering"><i class="bi bi-github"></i></a>
               </div>
             </div>
           </div>
@@ -373,134 +366,6 @@
       </div>
     </section><!-- End Portfolio Section -->
 
-    <!-- ======= Services Section ======= -->
-    <!-- <section id="services" class="services">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Services</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
-            <div class="icon"><i class="bi bi-briefcase"></i></div>
-            <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
-            <div class="icon"><i class="bi bi-card-checklist"></i></div>
-            <h4 class="title"><a href="">Dolor Sitema</a></h4>
-            <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
-            <div class="icon"><i class="bi bi-bar-chart"></i></div>
-            <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-            <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
-            <div class="icon"><i class="bi bi-binoculars"></i></div>
-            <h4 class="title"><a href="">Magni Dolores</a></h4>
-            <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
-            <div class="icon"><i class="bi bi-brightness-high"></i></div>
-            <h4 class="title"><a href="">Nemo Enim</a></h4>
-            <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
-            <div class="icon"><i class="bi bi-calendar4-week"></i></div>
-            <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
-            <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
-          </div>
-        </div>
-
-      </div>
-    </section>< End Services Section -->
-
-    <!-- ======= Testimonials Section ======= -->
-    <!-- <!-- <section id="testimonials" class="testimonials section-bg">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Testimonials</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-        </div>
-
-        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <div class="testimonial-item" data-aos="fade-up">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
-              </div>
-            </div> End testimonial item -->
-
-            <!-- <div class="swiper-slide">
-              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="100">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                <h3>Sara Wilsson</h3>
-                <h4>Designer</h4>
-              </div>
-            </div>End testimonial item -->
-
-            <!-- <div class="swiper-slide">
-              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="200">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                <h3>Jena Karlis</h3>
-                <h4>Store Owner</h4>
-              </div>
-            </div>End testimonial item -->
-
-            <!-- <div class="swiper-slide">
-              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="300">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                <h3>Matt Brandon</h3>
-                <h4>Freelancer</h4>
-              </div>
-            </div>End testimonial item -->
-
-            <!-- <div class="swiper-slide">
-              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="400">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                <h3>John Larson</h3>
-                <h4>Entrepreneur</h4>
-              </div>
-            </div> End testimonial item
-
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
-      </div>
-    </section>End Testimonials Section -->
 
 <!-- ======= Contact Section ======= -->
 <section id="contact" class="contact">
@@ -511,9 +376,9 @@
       <p>You can contact me here!!!!</p>
     </div>
 
-    <div class="row" data-aos="fade-in">
+    <div class="row">
 
-      <div class="col-lg-5 d-flex align-items-stretch">
+      <!-- <div class="col-lg-5 d-flex align-items-stretch">
         <div class="info">
           <div class="address">
             <i class="bi bi-geo-alt"></i>
@@ -533,12 +398,11 @@
             <p>+1 945 400 9320</p>
           </div>
 
-          <!-- Your embedded Google Map can stay as is -->
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3356.170559100183!2d-97.1232942238645!3d32.73466148614858!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864e7d0ebdf2b47b%3A0x32cc0adf837f8168!2s1020%20W%20Abram%20St%2C%20Arlington%2C%20TX%2076013!5e0!3m2!1sen!2sus!4v1707877417424!5m2!1sen!2sus"  frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
-        </div>
-      </div>
+          <!-Your embedded Google Map can stay as is -->
+          <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3356.170559100183!2d-97.1232942238645!3d32.73466148614858!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864e7d0ebdf2b47b%3A0x32cc0adf837f8168!2s1020%20W%20Abram%20St%2C%20Arlington%2C%20TX%2076013!5e0!3m2!1sen!2sus!4v1707877417424!5m2!1sen!2sus"  frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+        </div> --> 
 
-      <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+      <div class="col-lg-10 mt-5 mt-lg-0 align-items-stretch">
         <form action="https://formspree.io/f/xzbnalpw" method="post" role="form" class="php-email-form">
           <div class="row">
             <div class="form-group col-md-6">
@@ -577,27 +441,44 @@
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
-    <div class="container">
-      <div class="credits">
-      Designed with Love by <a href="https://abhijitchallapalli.github.io/"><br>&copy; 2026 AbhijitChallapalli</a>
-      </div>
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <div class="name"> Designed with ❤️ by Abhijit Challapalli © 2026 All rights reserved.</div>
     </div>
-  </footer><!-- End  Footer -->
+
+    <div class="footer-links">
+      <a href="https://github.com/AbhijitChallapalli" target="_blank" rel="noopener"> <i class="bi bi-github"></i> GitHub
+      </a>
+      <a href="https://www.linkedin.com/in/abhijit-c-b5876814b/" target="_blank" rel="noopener">
+        <i class="bi bi-linkedin"></i> LinkedIn
+      </a>
+      <a href="#contact">
+        <i class="bi bi-envelope"></i> Contact
+      </a>
+    </div>
+  </div>
+</footer>
+
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
+  <!-- JS Dependencies -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.umd.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
  
   <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <script src="assets/js/site.js"></script>
+
+
+  <!-- Image Lightbox Modal -->
+  <div class="modal fade" id="imageLightbox" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-body p-0">
+          <img id="imageLightboxImg" src="" alt="" class="img-fluid w-100">
+        </div>
+      </div>
+    </div>
+  </div>
 
 </body>
 
